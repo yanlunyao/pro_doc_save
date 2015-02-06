@@ -1,0 +1,43 @@
+abbreviation：
+CIE：安防中心
+End device：终端设备
+Coordinator Device：协调器
+Zone：检测设备
+warning device：报警设备
+N：no，Y：yes，L：luyou，
+
+
+Z203--无线集成控制盒 N
+Z211--红外学习及红外控制的设备，还可接收红外遥控信号来控制zigbee设备 Y L
+Z302D--紧急报警触发设备 
+Z302J--门磁设备，有2EP：On/off switch device可控制绑定设备的开关，IAS ZONE作为检测设备
+Z308--紧急报警触发设备
+Z311A--门磁设备
+Z311B--灯光自动开关控制器：能接受 On/Off 命令的设备绑定，当光线增强到一定程度，Z311B 发送Off (关灯)命令给绑定的设备。
+Z311G--ligth sensor环境照度自动侦测器及报告器
+Z311H--灯光亮度调节器
+Z312--door bell
+Z602A--报警器
+Z711--温湿度传感器
+Z801RX--开关输出设备，L，具有开关控制功能的设备可与Z801RX绑定控制其继电器的通断。
+Z805B--Switch Control Unit with Consumption Display，L，可与开关功能的设备绑定。
+Z809A--插座，L，可与具开关功能的设备绑定。
+Z811--Wireless switch control Unit，L，可与具有ON/OFF/TOGGLE控制命令的设备来实现输出外接开关的设备，可绑定。
+Z815N--shade，窗帘控制，L，可与具开关功能的设备绑定。
+Z816H--插座，L，可绑定开关。
+Z817B--Dimmer Light with PowerDetect，L，可与开关/level绑定。
+ZA01A--air pollution sensor有害气体探测设备，安防，L，向enroll的CIE设备发送状态改变信息。（加网会自动enroll）
+ZA01B--gas detector with heat sensor万斯探测器，L...
+ZA01C--CO detector一氧化碳探测器，L...
+ZA01D--天然气探测器，L...
+ZA10--gas/water keeper，L，可与开关绑定，做gas keeper时可接收到火警报警时自动关闭管道，做water keeper时可接收到火警报警自动打开管道。
+ZB02A--battery-powered wall switch，End device，可控制绑定的开关或调光设备。绑定成功后，按 ZB02A 的控制按键，按一次则设备发送开命令给绑定的设备；再按一次，则设备发送关的命令给绑定的设备。如此循环。
+ZB02B--双键开关，End device，可与具有开关可控或可调功能的设备控制其开关。
+ZB02C--三键开关，End device，可与具有开关可控或可调功能的设备控制其开关。
+ZB02F--双键开关（2键只能控制开，1键只能控制关），End device，可与具有开关可控或可调功能的设备控制其开关。
+ZB11A--End device，红外移动探测器，检测到物体移动向CIE报警，有防拆功能，被拆会向CIE报警，自动enroll。
+ZL01A--combined Interface，L或者Coordinator Device
+
+
+
+
